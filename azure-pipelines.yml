@@ -18,8 +18,8 @@ stages:
 
     displayName: Build
 
-    pool:
-      vmImage: ubuntu-latest
+    pool: local-agent
+      
 
 
     steps:
